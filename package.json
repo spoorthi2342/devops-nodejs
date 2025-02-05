@@ -1,26 +1,24 @@
 {
-  "name": "HelloWorld",
-  "private": true,
-  "version": "0.0.0",
-  "description": "Hello World",
-  "main": "server.js",
-  "author": {
-    "name": "",
-    "email": ""
-  },
-  "dependencies": {
-    "express": "^4.13.3",
-    "mocha": "^8.0.0"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-mocha": "^7.0.0",
-    "mocha-junit-reporter": "^1.12.0",
-    "gulp-istanbul": "^1.1.3",
-    "nyc": "^15.0.2"
-  },
+  "name": "devops-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "",
-    "start": "node server.js"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoorthi2342/devops-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spoorthi2342/devops-nodejs/issues"
+  },
+  "homepage": "https://github.com/spoorthi2342/devops-nodejs#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
